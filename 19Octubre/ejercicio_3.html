@@ -1,0 +1,30 @@
+<!--
+    Crea un DIV con el número 0 en su interior. Bajo el DIV, coloca dos botones:
+    uno para sumar y otro para restar.
+    a) Si se pulsa el botón para sumar, se incrementa en uno el número que hay
+    en el DIV en ese momento.
+    b) Si se pulsa el botón restar, se decrementa en uno el número que hay en 
+    el DIV en ese momento.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ejercicio_3</title>
+    <link rel="stylesheet" href="estilo_e3.css">
+</head>
+<body>
+    <div id="resultado">0</div>
+    <div class="botones">
+        <div class="botonSuma">
+            <button onclick="suma()">suma</button>
+        </div>
+        <div class="botonResta">
+            <button onclick=resta()>Restar</button>
+        </div>
+    </div>
+<script src="funciones_e3.js" defer></script>    
+</body>
+</html>
